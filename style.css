@@ -1,0 +1,178 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+      /* HEADER  */
+header{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+} 
+header> nav> ul > li{
+    display: inline;
+    padding: 0 10px;
+
+} 
+.blog{
+    font-size: 24px
+  }
+  .about{
+    font-size: 24px;
+
+  }
+  .links{
+    font-size: 24px;
+  } 
+  .projects{
+         font-size: 24px;
+  }    
+
+.navbar > ul > li >a:hover{
+    color: skyblue;
+}
+    
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.logo a{
+    font-size: 38px;
+}
+     /* HERO  */
+#hero{
+    padding: 50px 0px;
+    text-align: center;
+}
+#hero h3{
+    font-size: 44px;
+    margin: 10px 0px;
+}
+#hero p{
+    font-size: 34px;
+}
+#hero div{
+    width: fit-content;
+}
+   /* BLOGS SECTION */
+#blog-sec {
+    text-align: center;
+}
+
+#blog-sec>h2 {
+    font-size: 44px;
+    font-weight: 700;
+    margin: 30px 0px;
+}
+
+.blogs-container {
+    display: flex;
+    justify-content: center;
+    row-gap: 22px;
+}
+
+.blogs-container>div {
+    padding: 15px;
+}
+
+.blogs-container>div:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 6px 4px 0px, rgba(60, 64, 67, 0.15) 0px 4px 8px 4px;
+    border-radius: 8px;
+}
+
+.blog-image {
+    height: 176px;
+    width: 304px;
+    margin-bottom: 14px;
+}
+
+.blog-image+p {
+    width: 262px;
+    font-weight: 500;
+    font-size: 22px;
+    margin: auto;
+}
+   /* FOOTER */
+footer {
+    height: 464px;
+    background-color: #000000;
+    margin-top: 100px;
+    color: white;
+}
+
+footer>p,
+footer span {
+    color: white;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p>.light-text {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer-content {
+    text-align: center;
+    margin: 100px 50px;
+}
+
+.footer-content h1 {
+    font-size: 37px;
+    font-weight: 500;
+}
+
+.footer-content h1:hover {
+    text-decoration: underline;
+}
+
+.footer-content>h1+p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 488px;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+/* Footer navigation links aligned in a single line */
+.footer-nav-links>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.top-line{
+    word-spacing: 10px;
+    padding-bottom: 0;
+    margin-top: 0;
+
+}
+
+.footer-nav-links>ul li a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.footer-nav-links ul>li a:hover {
+    border: 1px solid white;
+    padding: 9px;
+}
+
+.footer-content p:last-child {
+    padding-top: 60px;
+    font-weight: 500;
+    width: 178px;
+    margin: auto;
+}
+
+   
